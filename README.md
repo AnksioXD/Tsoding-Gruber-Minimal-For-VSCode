@@ -5,7 +5,7 @@
   <strong>Tsoding Emacs Gruber Minimal, a customized Gruber Darker theme for VSCode</strong> <br>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/AnksioXD/Tsoding-Serene-Edition-For-VSCode/main/assets/preview.png" height="500">
+<img src="https://raw.githubusercontent.com/AnksioXD/Tsoding-Serene-Edition-For-VSCode/main/assets/preview.png" width="800>
 </p><br>
 
 # Information
