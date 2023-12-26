@@ -4,9 +4,8 @@
 <p align="center">
   <strong>Tsoding Emacs Gruber Minimal, a customized Gruber Darker theme for VSCode</strong> <br>
 </p>
-<p align="center">
-<img src="https://raw.githubusercontent.com/AnksioXD/Tsoding-Serene-Edition-For-VSCode/main/assets/preview.png" width="800>
-</p><br>
+<p align="center"><img src="https://raw.githubusercontent.com/AnksioXD/Tsoding-Serene-Edition-For-VSCode/main/assets/preview.png" width="800">
+</p>
 
 # Information
 I stumbled upon <a href="https://github.com/rexim/gruber-darker-theme">Tsoding's Emacs Theme</a>, liked it, and thought, "Is there any similar themes for VSCode?". <br> Found a couple of similar themes, but none quite hit the spot for me. So, I made my own twist. <br> **Tsoding Emacs Gruber Minimal for VSCode**. It's a bit of Tsoding's vibe with my flavor. Not re-inventing the wheel, just making my coding space a tad more comfy. <br>
