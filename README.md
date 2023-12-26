@@ -1,5 +1,5 @@
 <p align="center">
-<img align="center" src="https://raw.githubusercontent.com/AnksioXD/Tsoding-Serene-Edition-For-VSCode/main/assets/logo.png" width="200" height="200">
+<img align="center" src="https://raw.githubusercontent.com/AnksioXD/Tsoding-Serene-Edition-For-VSCode/main/assets/tsgrubmin.png" width="200" height="200">
 </p><br>
 <p align="center">
   <strong>Tsoding Emacs Theme Serene Edition</strong> <br>
