@@ -2,7 +2,7 @@
 <img align="center" src="https://raw.githubusercontent.com/AnksioXD/Tsoding-Serene-Edition-For-VSCode/main/assets/tsgrubmin.png" width="200" height="200">
 </p><br>
 <p align="center">
-  <strong>Tsoding Emacs Theme Serene Edition</strong> <br>
+  <strong>Tsoding Emacs Gruber Minimal, a customized Gruber Darker theme for VSCode</strong> <br>
 </p>
 <p align="center">
 <img src="https://raw.githubusercontent.com/AnksioXD/Tsoding-Serene-Edition-For-VSCode/main/assets/preview.png" height="500">
