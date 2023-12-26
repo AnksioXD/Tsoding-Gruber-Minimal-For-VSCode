@@ -1,21 +1,37 @@
 {
-  "name": "tsoding-emacs-serene-edition",
-  "displayName": "Tsoding Emacs Serene Edition",
-  "description": "Enhanced Tsoding's Emacs Theme for VSCode.",
-  "version": "1.0.0",
+  "name": "tsoding-emacs-gruber-minimal",
+  "displayName": "Tsoding Emacs Serene Minimal",
+  "description": "Enhanced Tsoding's Emacs Gruber Darker Theme for VSCode.",
+  "version": "1.0.2",
   "engines": {
     "vscode": "^1.0.0"
   },
   "publisher": "Anksio",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnksioXD/Tsoding-Gruber-Minimal-For-VSCode"
+  },
+  "author": {
+    "name": "Anksio"
+  },
+  "license": "MIT",
+  "icon": "./assets/tsgrubmin.png",
   "categories": [
     "Themes"
+  ],
+  "keywords": [
+    "dark",
+    "brown",
+    "emacs",
+    "minimal",
+    "tsoding"
   ],
   "contributes": {
     "themes": [
       {
-        "label": "Tsoding Emacs Serene Edition",
+        "label": "Tsoding Emacs Gruber Minimal",
         "uiTheme": "vs-dark",
-        "path": "./themes/Tsoding Emacs Serene Edition-color-theme.json"
+        "path": "./themes/Tsoding Emacs Gruber Minimal-color-theme.json"
       }
     ]
   }
