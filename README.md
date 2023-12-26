@@ -9,7 +9,7 @@
 </p><br>
 
 # Information
-I stumbled upon Tsoding's Emacs theme, liked it, and thought, "Is there any similar themes for VSCode?". <br> Found a couple of similar themes, but none quite hit the spot for me. So, I made my own twist. <br> **Tsoding Emacs Serene Edition for VSCode**. It's a bit of Tsoding's vibe with my flavor. Not re-inventing the wheel, just making my coding space a tad more comfy. <br>
+I stumbled upon <a href="https://github.com/rexim/gruber-darker-theme">Tsoding's Emacs Theme</a>, liked it, and thought, "Is there any similar themes for VSCode?". <br> Found a couple of similar themes, but none quite hit the spot for me. So, I made my own twist. <br> **Tsoding Emacs Gruber Minimal for VSCode**. It's a bit of Tsoding's vibe with my flavor. Not re-inventing the wheel, just making my coding space a tad more comfy. <br>
 # Recomended Settings
 - Font Family = <a href="https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/Iosevka.zip">Iosevka</a>
 - Render Line Highlight = None
