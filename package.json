@@ -1,0 +1,22 @@
+{
+  "name": "tsoding-emacs-serene-edition",
+  "displayName": "Tsoding Emacs Serene Edition",
+  "description": "Enhanced Tsoding's Emacs Theme for VSCode.",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "publisher": "Anksio",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Tsoding Emacs Serene Edition",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Tsoding Emacs Serene Edition-color-theme.json"
+      }
+    ]
+  }
+}
