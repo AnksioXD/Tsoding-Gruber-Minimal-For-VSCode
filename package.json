@@ -2,7 +2,7 @@
   "name": "tsoding-emacs-gruber-minimal",
   "displayName": "Tsoding Emacs Serene Minimal",
   "description": "Enhanced Tsoding's Emacs Gruber Darker Theme for VSCode.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "engines": {
     "vscode": "^1.0.0"
   },
