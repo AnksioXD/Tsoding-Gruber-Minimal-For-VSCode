@@ -14,6 +14,23 @@
 
 ## Information
 I stumbled upon <a href="https://github.com/rexim/gruber-darker-theme">Tsoding's Emacs Theme</a>, liked it, and thought, "Is there any similar themes for VSCode?". <br> Found a couple of similar themes, but none quite hit the spot for me. So, I made my own twist. <br> **Tsoding Emacs Gruber Minimal for VSCode**. It's a bit of Tsoding's vibe with my flavor. Not re-inventing the wheel, just making my coding space a tad more comfy. <br>
+
+## Previews
+<details>
+<summary>Minimal</summary>
+<img src="https://raw.githubusercontent.com/AnksioXD/Tsoding-Serene-Edition-For-VSCode/main/assets/preview_min.png" width="800">
+</details>
+
+<details>
+<summary>Even Darker</summary>
+<img src="https://raw.githubusercontent.com/AnksioXD/Tsoding-Serene-Edition-For-VSCode/main/assets/preview_even_darker.png" width="800">
+</details>
+
+<details>
+<summary>Darkest</summary>
+<img src="https://raw.githubusercontent.com/AnksioXD/Tsoding-Serene-Edition-For-VSCode/main/assets/preview_darkest.png" width="800">
+</details>
+
 ## Recommended Settings
 - Font Family: <a href="https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/Iosevka.zip">Iosevka</a>
 - Render Line Highlight: `None`
