@@ -1,5 +1,5 @@
 <p align="center">
-<img align="center" src="https://raw.githubusercontent.com/AnksioXD/Tsoding-Serene-Edition-For-VSCode/main/assets/tsgrubmin.png" width="200" height="200">
+<img align="center" src="https://raw.githubusercontent.com/AnksioXD/Tsoding-Serene-Edition-For-VSCode/main/assets/logo.png" width="200" height="200">
 </p>
 <p align="center">
   <strong>Tsoding Emacs Gruber Minimal, a customized Gruber Darker theme for VSCode</strong><br>
@@ -18,17 +18,17 @@ I stumbled upon <a href="https://github.com/rexim/gruber-darker-theme">Tsoding's
 ## Previews
 <details>
 <summary>Minimal</summary>
-<img src="https://raw.githubusercontent.com/AnksioXD/Tsoding-Serene-Edition-For-VSCode/main/assets/preview_min.png" width="800">
+<img src="https://raw.githubusercontent.com/AnksioXD/Tsoding-Serene-Edition-For-VSCode/main/assets/minimal.png" width="800">
 </details>
 
 <details>
 <summary>Even Darker</summary>
-<img src="https://raw.githubusercontent.com/AnksioXD/Tsoding-Serene-Edition-For-VSCode/main/assets/preview_even_darker.png" width="800">
+<img src="https://raw.githubusercontent.com/AnksioXD/Tsoding-Serene-Edition-For-VSCode/main/assets/even_darker.png" width="800">
 </details>
 
 <details>
 <summary>Darkest</summary>
-<img src="https://raw.githubusercontent.com/AnksioXD/Tsoding-Serene-Edition-For-VSCode/main/assets/preview_darkest.png" width="800">
+<img src="https://raw.githubusercontent.com/AnksioXD/Tsoding-Serene-Edition-For-VSCode/main/assets/darkest.png" width="800">
 </details>
 
 ## Recommended Settings

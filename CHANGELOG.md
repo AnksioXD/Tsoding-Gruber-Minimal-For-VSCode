@@ -9,3 +9,6 @@
 ### [v1.1.1]
 - Removed Bold Keywords & Constants
 - Improved visibility of certain elements such as statusbar and scrollbar
+
+### [v1.1.2]
+- New Logo

@@ -1826,6 +1826,22 @@
       "name": "entity.name.type.cpp",
       "scope": "entity.name.type.cpp",
       "settings": {
+        "foreground": "#949bb0",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "entity.name.scope-resolution.function.definition.cpp",
+      "scope": "entity.name.scope-resolution.function.definition.cpp",
+      "settings": {
+        "foreground": "#949bb0",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "entity.name.function.preprocessor.cpp",
+      "scope": "entity.name.function.preprocessor.cpp",
+      "settings": {
         "foreground": "#d4d4d4",
         "fontStyle": ""
       }
