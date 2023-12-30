@@ -39,4 +39,4 @@ I stumbled upon <a href="https://github.com/rexim/gruber-darker-theme">Tsoding's
 - Activity Bar Position: `Hidden`
 
 ## License
-<a href="https://github.com/AnksioXD/Tsoding-Gruber-Minimal-For-VSCode/blob/main/LICENSE"><img src="https://camo.githubusercontent.com/3dbcfa4997505c80ef928681b291d33ecfac2dabf563eb742bb3e269a5af909c/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f496c65726961796f2f6d61726b646f776e2d6261646765733f7374796c653d666f722d7468652d6261646765" alt="Licence" data-canonical-src="https://img.shields.io/github/license/AnksioXD/Tsoding-Serene-Edition-For-VSCode?style=for-the-badge" style="max-width: 100%;"></a>
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
