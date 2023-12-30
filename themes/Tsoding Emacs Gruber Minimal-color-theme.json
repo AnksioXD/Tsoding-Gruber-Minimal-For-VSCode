@@ -599,9 +599,36 @@
       }
     },
     {
+      "name": "entity.name.function",
+      "scope": "entity.name.function",
+      "settings": {
+        "foreground": "#949BB0"
+      }
+    },
+    {
+      "name": "entity.name.function.c",
+      "scope": "entity.name.function.c",
+      "settings": {
+        "foreground": "#d4d4d4"
+      }
+    },
+    {
+      "name": "storage.type.struct",
+      "scope": "storage.type.struct",
+      "settings": {
+        "foreground": "#FFDD33"
+      }
+    },
+    {
+      "name": "entity.name.function.cpp",
+      "scope": "entity.name.function.cpp",
+      "settings": {
+        "foreground": "#d4d4d4"
+      }
+    },
+    {
       "name": "Functions",
       "scope": [
-        "entity.name.function",
         "meta.require",
         "support.function.any-method",
         "variable.function"
@@ -779,7 +806,7 @@
       "name": "Tags",
       "scope": "entity.name.tag",
       "settings": {
-        "foreground": "#d4d4d4"
+        "foreground": "#ffdd33"
       }
     },
     {
@@ -1743,7 +1770,14 @@
       "scope": "keyword, storage.type.function.php,support.function.construct.output.php,storage.type.class.php,storage.modifier.php,storage.type.class.python,storage.type.function.python,variable.parameter.function.language.special.self.python",
       "settings": {
         "foreground": "#ffdd33",
-        "fontStyle": "bold"
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Bold Imports",
+      "scope": "keyword.control.import",
+      "settings": {
+        "fontStyle": ""
       }
     },
     {
@@ -1751,7 +1785,7 @@
       "scope": "constant",
       "settings": {
         "foreground": "#ffdd33",
-        "fontStyle": "bold"
+        "fontStyle": ""
       }
     },
     {
@@ -1789,6 +1823,14 @@
       }
     },
     {
+      "name": "entity.name.type.cpp",
+      "scope": "entity.name.type.cpp",
+      "settings": {
+        "foreground": "#d4d4d4",
+        "fontStyle": ""
+      }
+    },
+    {
       "name": "other",
       "scope": "meta.attribute.php",
       "settings": {
@@ -1798,7 +1840,7 @@
     }
   ],
   "colors": {
-    "foreground": "#504945",
+    "foreground": "#b1a69f",
     "focusBorder": "#504945",
     "selection.background": "#504945",
     "scrollbar.shadow": "#00000000",
@@ -1831,7 +1873,7 @@
     "listFilterWidget.outline": "#cccccc",
     "listFilterWidget.noMatchesOutline": "#be1100",
     "statusBar.foreground": "#ffffff",
-    "statusBar.background": "#181818",
+    "statusBar.background": "#141414",
     "statusBarItem.hoverBackground": "#504945",
     "statusBar.debuggingBackground": "#881111",
     "statusBar.debuggingForeground": "#ffffff",
@@ -1893,8 +1935,8 @@
     "editor.lineHighlightBorder": "#282828",
     "editorLineNumber.activeForeground": "#ffdd33",
     "editorLink.activeForeground": "#4e94ce",
-    "editorIndentGuide.background": "#404040",
-    "editorIndentGuide.activeBackground": "#707070",
+    "editorIndentGuide.background1": "#404040",
+    "editorIndentGuide.activeBackground1": "#707070",
     "editorRuler.foreground": "#5a5a5a",
     "editorBracketMatch.background": "#504945",
     "editorBracketMatch.border": "#504945",
@@ -1920,7 +1962,7 @@
     "diffEditor.insertedTextBackground": "#9bb95533",
     "diffEditor.removedTextBackground": "#ff000033",
     "diffEditor.border": "#444444",
-    "panel.background": "#181818",
+    "panel.background": "#151515",
     "panel.border": "#181818",
     "panelTitle.activeBorder": "#ffdd33",
     "panelTitle.activeForeground": "#ffdd33",
@@ -1960,9 +2002,10 @@
     "tab.activeBorderTop": "#00000000",
     "tab.inactiveBackground": "#1c1c1c",
     "tab.inactiveForeground": "#ffffff80",
-    "scrollbarSlider.background": "#181818",
+    "scrollbarSlider.background": "#111111",
     "scrollbarSlider.hoverBackground": "#646464b3",
     "scrollbarSlider.activeBackground": "#bfbfbf66",
+    "statusBar.focusBorder": "#303030",
     "progressBar.background": "#504945",
     "widget.shadow": "#00000000",
     "editorWidget.foreground": "#cccccc",
@@ -2042,7 +2085,7 @@
     "editorGroup.emptyBackground": "#181818",
     "panelSection.border": "#80808059",
     "statusBarItem.activeBackground": "#FFFFFF25",
-    "settings.headerForeground": "#504945",
+    "settings.headerForeground": "#e1dad5",
     "settings.focusedRowBackground": "#ffffff07",
     "walkThrough.embeddedEditorBackground": "#00000050",
     "breadcrumb.activeSelectionForeground": "#e0e0e0",
