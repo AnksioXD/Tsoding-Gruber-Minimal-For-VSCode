@@ -1743,7 +1743,7 @@
       "scope": "keyword, storage.type.function.php,support.function.construct.output.php,storage.type.class.php,storage.modifier.php,storage.type.class.python,storage.type.function.python,variable.parameter.function.language.special.self.python",
       "settings": {
         "foreground": "#ffdd33",
-        "fontStyle": "bold"
+        "fontStyle": "non-italic"
       }
     },
     {
@@ -1751,7 +1751,7 @@
       "scope": "constant",
       "settings": {
         "foreground": "#ffdd33",
-        "fontStyle": "bold"
+        "fontStyle": "non-italic"
       }
     },
     {
