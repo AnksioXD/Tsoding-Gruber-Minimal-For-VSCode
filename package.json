@@ -1,50 +1,48 @@
 {
-  "name": "tsoding-emacs-gruber-minimal",
-  "displayName": "Tsoding Emacs Gruber Minimal",
-  "description": "Enhanced, Minimal Version of Tsoding's Emacs Gruber Darker Theme for VSCode.",
-  "version": "1.1.2",
-  "engines": {
-    "vscode": "^1.0.0"
-  },
-  "publisher": "Anksio",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/AnksioXD/Tsoding-Gruber-Minimal-For-VSCode"
-  },
-  "author": {
-    "name": "Anksio"
-  },
-  "license": "MIT",
-  "icon": "./assets/logo.png",
-  "categories": [
-    "Themes"
-  ],
-  "keywords": [
-    "dark",
-    "brown",
-    "emacs",
-    "minimal",
-    "tsoding"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Tsoding Emacs Gruber Minimal",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Tsoding Emacs Gruber Minimal-color-theme.json"
-      },
-      {
-        "label": "Tsoding Emacs Gruber Even Darker",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Tsoding Emacs Gruber Even Darker-color-theme.json"
-      },
-      {
-        "label": "Tsoding Emacs Gruber Darkest",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Tsoding Emacs Gruber Darkest-color-theme.json"
-      }
-      
-    ]
-    
-  }
+    "name": "tsoding-emacs-gruber-minimal",
+    "displayName": "Tsoding Emacs Gruber Minimal",
+    "description": "Enhanced, Minimal Version of Tsoding's Emacs Gruber Darker Theme for VSCode.",
+    "version": "1.1.3",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "publisher": "Anksio",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AnksioXD/Tsoding-Gruber-Minimal-For-VSCode"
+    },
+    "author": {
+        "name": "Anksio"
+    },
+    "license": "MIT",
+    "icon": "./assets/logo.png",
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "dark",
+        "brown",
+        "emacs",
+        "minimal",
+        "tsoding"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Tsoding Emacs Gruber Minimal",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Tsoding Emacs Gruber Minimal-color-theme.json"
+            },
+            {
+                "label": "Tsoding Emacs Gruber Even Darker",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Tsoding Emacs Gruber Even Darker-color-theme.json"
+            },
+            {
+                "label": "Tsoding Emacs Gruber Darkest",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Tsoding Emacs Gruber Darkest-color-theme.json"
+            }
+        ]
+    }
 }
