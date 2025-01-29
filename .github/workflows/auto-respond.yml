@@ -1,17 +1,1 @@
-name: PR Comment
 
-on:
-  pull_request:
-    types: [opened]   # Automatically trigger on PR opened
-  workflow_dispatch:   # Allow manual triggering for testing
-
-jobs:
-  comment:
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v3
-
-      - name: Comment on PR
-        run: |
-          gh issue comment --repo ${{ github.repository }} ${{ github.event.number }} --body "🚀 Thanks for your PR!🎓 I'm currently preparing for exams and won't be able to review pull requests until **March 10, 2025**. You have been put in a review queue. ✅"
