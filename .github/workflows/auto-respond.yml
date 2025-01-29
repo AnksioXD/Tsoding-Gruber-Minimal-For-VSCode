@@ -1,0 +1,31 @@
+name: Auto-Respond to PRs
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  respond:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Comment on new PRs with Exam Notice
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const today = new Date();
+            const returnDate = new Date("2025-03-10");
+            const diffTime = returnDate - today;
+            const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+
+            github.rest.issues.createComment({
+              issue_number: context.payload.pull_request.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `🚀 **Thanks for your PR!**  
+
+              🎓 I'm currently preparing for exams and won't be able to review pull requests until **March 10, 2025**.  
+
+              📅 **Today's Date:** ${today.toDateString()}  
+              ⏳ **Time Until Review Resumes:** ${diffDays} days left!  
+
+              📝 Your PR has been added to the review queue, and I'll get to it once I'm back. Thank you for your patience! 🙌`
+            });
