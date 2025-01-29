@@ -17,7 +17,7 @@ jobs:
           script: |
             const pr = context.payload.pull_request;
             if (!pr) {
-              console.log("Manually triggered. No PR context.");
+              console.log("Manually triggered. No PR context available.");
               return;
             }
 
@@ -26,20 +26,15 @@ jobs:
             const returnDate = new Date("2025-03-10");
             const diffDays = Math.ceil((returnDate - today) / (1000 * 60 * 60 * 24));
 
-            const commentBody = `
-            🚀 **Thanks for your PR!**  
-
-            🎓 I'm currently preparing for exams and won't be able to review pull requests until **March 10, 2025**.  
-
-            📅 **Today's Date:** ${today.toDateString()}  
-            ⏳ **Time Until Review Resumes:** ${diffDays} days left!  
-
-            📝 Your PR has been added to the review queue, and I'll get to it once I'm back. Thank you for your patience! 🙌
-            `;
+            const commentBody = `🚀 **Thanks for your PR!**\n\n
+            🎓 I'm currently preparing for exams and won't be able to review pull requests until **March 10, 2025**.\n\n
+            📅 **Today's Date:** ${today.toDateString()}\n
+            ⏳ **Time Until Review Resumes:** ${diffDays} days left!\n\n
+            📝 Your PR has been added to the review queue, and I'll get to it once I'm back. Thank you for your patience! 🙌`;
 
             github.rest.issues.createComment({
-              issue_number: prNumber,
               owner: context.repo.owner,
               repo: context.repo.repo,
+              issue_number: prNumber,
               body: commentBody
             });
