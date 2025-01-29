@@ -1,9 +1,9 @@
 name: PR Comment
 
 on:
-  workflow_dispatch:
   pull_request:
-    types: [opened]
+    types: [opened]   # Automatically trigger on PR opened
+  workflow_dispatch:   # Allow manual triggering for testing
 
 jobs:
   comment:
@@ -14,4 +14,4 @@ jobs:
 
       - name: Comment on PR
         run: |
-          gh issue comment --repo ${{ github.repository }} --issue ${{ github.event.number }} --body "🚀 Thanks for your PR!🎓 I'm currently preparing for exams and won't be able to review pull requests until **March 10, 2025**. You have been put in a review queue. ✅"
+          gh issue comment --repo ${{ github.repository }} ${{ github.event.number }} --body "🚀 Thanks for your PR!🎓 I'm currently preparing for exams and won't be able to review pull requests until **March 10, 2025**. You have been put in a review queue. ✅"
