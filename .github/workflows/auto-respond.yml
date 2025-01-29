@@ -1,19 +1,16 @@
-name: Auto-Respond to PRs
+name: PR Comment
+
 on:
-  workflow_dispatch:
   pull_request:
     types: [opened]
+
 jobs:
-  respond:
+  comment:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Comment on new PRs
-        uses: actions/github-script@v7
-        with:
-          script: |
-            github.rest.issues.createComment({
-              issue_number: context.payload.pull_request.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: "🚀 Thanks for your PR!🎓 I'm currently preparing for exams and won't be able to review pull requests until **March 10, 2025**. You have been put in a review queue. ✅"
-            });
+      - uses: actions/checkout@v3
+
+      - name: Comment on PR
+        run: |
+          gh issue comment --repo ${{ github.repository }} --issue ${{ github.event.number }} --body "🚀 Thanks for your PR!🎓 I'm currently preparing for exams and won't be able to review pull requests until **March 10, 2025**. You have been put in a review queue. ✅"
