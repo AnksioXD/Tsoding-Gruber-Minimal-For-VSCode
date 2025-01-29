@@ -1,24 +1,33 @@
 name: Auto-Respond to PRs
 on:
-  workflow_dispatch:
   pull_request:
     types: [opened]
+  workflow_dispatch:  # Allows manual execution
 
 jobs:
   respond:
     runs-on: ubuntu-latest
     steps:
+      - name: Debug Event Payload
+        run: echo '${{ toJson(github.event) }}'  # Logs event data for debugging
+
       - name: Comment on new PRs with Exam Notice
         uses: actions/github-script@v7
         with:
           script: |
+            const pr = context.payload.pull_request;
+            if (!pr) {
+              console.log("Manually triggered. No PR context.");
+              return;
+            }
+
+            const prNumber = pr.number;
             const today = new Date();
             const returnDate = new Date("2025-03-10");
-            const diffTime = returnDate - today;
-            const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+            const diffDays = Math.ceil((returnDate - today) / (1000 * 60 * 60 * 24));
 
             github.rest.issues.createComment({
-              issue_number: context.payload.pull_request.number,
+              issue_number: prNumber,
               owner: context.repo.owner,
               repo: context.repo.repo,
               body: `🚀 **Thanks for your PR!**  
