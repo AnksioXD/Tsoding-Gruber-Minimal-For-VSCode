@@ -1,10 +1,3 @@
-# PR Review Status ⚠️ 
-📝 I'm currently preparing for exams and won't be able to review pull requests until **March 10, 2025**.  
-Rest assured, your PR is in the review queue and will be prioritized as soon as I'm available. ✅
-
-Thank you for your patience and understanding!
-
-
 <p align="center">
 <img align="center" src="https://raw.githubusercontent.com/AnksioXD/Tsoding-Serene-Edition-For-VSCode/main/assets/logo.png" width="200" height="200">
 </p>
