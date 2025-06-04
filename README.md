@@ -8,6 +8,14 @@
   <img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FAnksioXD%2FTsoding-Gruber-Minimal-For-VSCode&label=Visitors&labelColor=%23697689&countColor=%23d9e3f0">
   <a href="https://discord.gg/ZXJHCa3rK8"><img src="https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white"></a>
 </p>
+
+<p align="center">
+  <a href="https://ko-fi.com/L3L21FZA36">
+    <img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="ko-fi">
+  </a>
+</p>
+
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/AnksioXD/Tsoding-Serene-Edition-For-VSCode/main/assets/preview.png" width="800">
 </p>
