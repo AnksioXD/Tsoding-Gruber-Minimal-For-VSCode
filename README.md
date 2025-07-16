@@ -40,10 +40,10 @@ I stumbled upon <a href="https://github.com/rexim/gruber-darker-theme">Tsoding's
 </details>
 
 ## Recommended Settings
-- Font Family: <a href="https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/Iosevka.zip">Iosevka</a>
+- Font Family: <a href="https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Iosevka.zip">Iosevka</a>
 - Render Line Highlight: `None`
 - Cursor Style: `Block`
-- Bracker Pair Colorization: `Disabled`
+- Bracket Pair Colorization: `Disabled`
 - Activity Bar Position: `Hidden`
 
 ## License
