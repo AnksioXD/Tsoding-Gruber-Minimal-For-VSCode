@@ -13,6 +13,7 @@
   <a href="https://ko-fi.com/L3L21FZA36">
     <img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="ko-fi">
   </a>
+  <code>🔷Discord @anksio</code>
 </p>
 
 
