@@ -6,7 +6,7 @@
 </p>
 <p align="center">
   <img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FAnksioXD%2FTsoding-Gruber-Minimal-For-VSCode&label=Visitors&labelColor=%23697689&countColor=%23d9e3f0">
-  <a href="https://discord.gg/ZXJHCa3rK8"><img src="https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white"></a>
+  
 </p>
 
 <p align="center">
